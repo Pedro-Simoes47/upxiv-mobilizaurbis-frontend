@@ -2,7 +2,7 @@
 
 Este repositório contém a aplicação **front-end** do projeto MobilizaUrbis. Este é o "cliente", o site com o qual o cidadão e o administrador interagem.
 
-Esta aplicação é composta por páginas HTML puras, estilizadas com CSS e tornadas dinâmicas com JavaScript (ES6+), que consome a [API Back-end do MobilizaUrbis](https://github.com/seu-usuario/mobilizaurbis-backend) (hospedada em um repositório separado).
+Esta aplicação é composta por páginas HTML puras, estilizadas com CSS e tornadas dinâmicas com JavaScript (ES6+), que consome a [API Back-end do MobilizaUrbis](https://github.com/Pedro-Simoes47/-upxiv_mobilizurbis) (hospedada em um repositório separado).
 
 ---
 
