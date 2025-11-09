@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MobilizaUrbis</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>MobilizaUrbis</h1>
+    <p class="subtitle">
+      Transforme sua cidade reportando problemas urbanos diretamente para a prefeitura. 
+      Sua voz importa, sua cidade agradece.
+    </p>
+
+    <form id="reportForm">
+      <div class="buttons">
+        <label class="btn blue">
+          Selecionar Foto da Galeria/Arquivo
+          <input type="file" id="uploadFile" accept="image/*" hidden>
+        </label>
+        <label class="btn green">
+          Tirar Foto Agora
+          <input type="file" id="cameraFile" accept="image/*" capture="environment" hidden>
+        </label>
+      </div>
+
+      <div id="preview"></div>
+
+      <div class="form-group">
+        <label for="problemType">Tipo de problema:</label>
+        <select id="problemType" required>
+          <option value="">Selecione...</option>
+          <option value="1">Burraco na Via.</option>
+          <option value="2">Problema de iluminação publica.</option>
+          <option value="3">Sinalização danificada.</option>
+          <option value="4">Lixo Acumulado</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="description">Descrição detalhada:</label>
+        <textarea id="description" name="description" placeholder="Descreva o problema..." required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="localizacao">Localização (Obrigatório):</label>
+        <input type="text" id="localizacao" placeholder="Ex: Em frente ao nº 1500 da Av. Dom Aguirre" required>
+        <button type="button" id="btnGeolocalizacao" class="btn green" style="width: 100%; margin-top: 10px;">
+          Usar minha localização atual
+        </button>
+      </div>
+
+      <button type="submit" class="btn submit">Enviar Problema</button>
+    </form>
+
+    <div class="steps">
+      <div class="step">
+        <h2>1. Fotografe</h2>
+        <p>Capture o problema urbano com sua câmera</p>
+      </div>
+      <div class="step">
+        <h2>2. Descreva</h2>
+        <p>Adicione detalhes e localização</p>
+      </div>
+      <div class="step">
+        <h2>3. Envie</h2>
+        <p>Receba atualizações sobre o andamento</p>
+      </div>
+    </div>
+  </div>
+  <script src="principal.js" defer></script>
+</body>
+</html>
