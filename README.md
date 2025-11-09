@@ -56,12 +56,12 @@ Isso acontece por dois motivos:
 
 1.  **Clone este repositório:**
     ```bash
-    git clone [https://github.com/coxinhamena/mobilizaurbis.git](https://github.com/coxinhamena/mobilizaurbis.git)
-    cd mobilizaurbis
+    git clone [https://github.com/Pedro-Simoes47/upxiv-mobilizaurbis-frontend.git](https://github.com/Pedro-Simoes47/upxiv-mobilizaurbis-frontend.git)
+    cd upxiv-mobilizaurbis-frontend
     ```
 
 2.  **Execute o Back-end:**
-    Certifique-se de que o seu [projeto back-end](https://github.com/seu-usuario/mobilizaurbis-backend) esteja em execução no `http://localhost:8081`.
+    Certifique-se de que o seu [projeto back-end](https://github.com/Pedro-Simoes47/-upxiv_mobilizurbis) esteja em execução no `http://localhost:8081`.
 
 3.  **Use o Live Server (Recomendado):**
     A forma mais fácil de rodar o front-end é com a extensão **Live Server** no VS Code.
