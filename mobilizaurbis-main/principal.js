@@ -77,7 +77,7 @@ form.addEventListener('submit', e => {
     submitButton.innerText = "Enviando...";
     submitButton.disabled = true;
     
-    fetch('http://localhost:8081/api/relatos', {
+    fetch('https://mobilizaurbis-api.onrender.com/api/relatos', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

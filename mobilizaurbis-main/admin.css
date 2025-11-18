@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+}
+
+header {
+    background-color: #fff;
+    color: #40E0D0;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+#logoutBtn {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#logoutBtn:hover {
+    background: #cc0000;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.filtros {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.filtros label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.filtros select, .filtros button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.filtros button {
+    background-color: #40E0D0;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.filtros button:hover {
+    opacity: 0.8;
+}
+
+#feed-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.relato-item {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.relato-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.relato-header h3 {
+    margin: 0;
+    color: #0056d6;
+}
+
+.relato-header span {
+    font-weight: bold;
+    background: #eee;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.relato-item p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.relato-acoes button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #40E0D0;
+    color: white;
+}
+.relato-acoes button:hover {
+    opacity: 0.8;
+}

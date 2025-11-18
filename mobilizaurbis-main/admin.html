@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - MobilizaUrbis</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <header>
+        <h1>Painel de Administrador - MobilizaUrbis</h1>
+        <button id="logoutBtn">Sair (Logout)</button>
+    </header>
+
+    <main>
+        <div class="filtros">
+            <label for="filtroCategoria">Filtrar por Categoria:</label>
+            <select id="filtroCategoria">
+                <option value="">-- Ver Todas --</option>
+                <option value="1">Burraco na Via.</option>
+                <option value="2">Problema de iluminação publica.</option>
+                <option value="3">Sinalização danificada.</option>
+                <option value="4">Lixo Acumulado</option>
+            </select>
+            <button id="btnFiltrar">Filtrar</button>
+        </div>
+
+        <div id="feed-container">
+            <h2>Carregando relatos...</h2>
+        </div>
+    </main>
+
+    <script src="admin.js" defer></script>
+</body>
+</html>
